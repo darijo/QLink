@@ -1,2 +1,2 @@
 # QLink
-QLink extends Mininet API to enable emulating links with multiple queues to differentiate between different traffic streams.
+QLink extends Mininet API to enable emulating links with multiple queues to differentiate between different traffic streams. QLink extends Mininet API to enable emulating links with multiple queues to differentiate between different traffic streams. We extend Mininet API with an addqLink method that receives both link emulation and queuing parameters. Assigning traffic to queues is achieved through OpenFlow (OF) rules that can be installed through the application build on top of any SDN controller.
