@@ -22,19 +22,25 @@ Contents:
 ## Installation
 
 Clone the repository
+	
 	git clone https://github.com/darijo/QLink.git
 
 	
 Download Mininet version 2.3.0
+
 	git clone https://github.com/mininet/mininet
+
 	cd mininet
+	
 	git checkout -b mininet-2.3.0 2.3.0
+
 	cd ..
 	
 Backup <net.py>, <node.py>, and <util.py> files in mininet/mininet folder
 Copy <net.py>, <node.py>, and <util.py> from files folder to mininet/mininet folder or use provided patch file <qlink.patch> (patch -s -p1 < qlink.patch)
 
 Install Mininet 
+
 	mininet/util/install.sh -a
 
 ## Usage
