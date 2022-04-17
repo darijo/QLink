@@ -32,7 +32,7 @@ Download Mininet version 2.3.0
 	cd ..
 	
 Backup <net.py>, <node.py>, and <util.py> files in mininet/mininet folder
-Copy <net.py>, <node.py>, and <util.py> from QLink repo to mininet/mininet folder
+Copy <net.py>, <node.py>, and <util.py> from files folder to mininet/mininet folder or use provided patch file <qlink.patch> (patch -s -p1 < qlink.patch)
 
 Install Mininet 
 	mininet/util/install.sh -a
