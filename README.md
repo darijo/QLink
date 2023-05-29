@@ -84,10 +84,4 @@ We kindly ask that should you mention any of our datasets, or use our code, in y
 	
 Bibtex:
 	
-@book{Hemingway1952,
-  title={The Old Man and the Sea},
-  author={Hemingway, Ernest},
-  year={1952},
-  publisher={Charles Scribner's Sons}
-}
-
+\cite{10.1145/3524273.3532893}
