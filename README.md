@@ -81,4 +81,23 @@ Example of use:
 We kindly ask that should you mention any of our datasets, or use our code, in your publication, that you would reference the following paper:
 	
 	Darijo Raca, Meghana Salian, and Ahmed H. Zahran. 2022. Enabling scalable emulation of differentiated services in mininet. In Proceedings of the 13th ACM Multimedia Systems Conference (MMSys '22). Association for Computing Machinery, New York, NY, USA, 240–245. https://doi.org/10.1145/3524273.3532893
+	
+Bibtex:
+	
+@inproceedings{10.1145/3524273.3532893,
+author = {Raca, Darijo and Salian, Meghana and Zahran, Ahmed H.},
+title = {Enabling Scalable Emulation of Differentiated Services in Mininet},
+year = {2022},
+isbn = {9781450392839},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3524273.3532893},
+doi = {10.1145/3524273.3532893},
+booktitle = {Proceedings of the 13th ACM Multimedia Systems Conference},
+pages = {240–245},
+numpages = {6},
+keywords = {VoIP, web behavioral modelling, emulation, web traffic, adaptive video streaming, mininet, differentiated services},
+location = {Athlone, Ireland},
+series = {MMSys '22}
+}
 
