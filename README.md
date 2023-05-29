@@ -10,7 +10,7 @@ Contents:
 - [Usage](#usage)
 - [Logging](#logging)
 - [Caveats](#caveats)
-- [Acknowledgements](#acknowledgements)
+- [Citation](#citation)
 
 
 ## Requirements
@@ -77,7 +77,7 @@ Example of use:
 	net.addQlink (s1, s2, params1 ={'bw ':200, 'delay': '10ms'}, params2={'bw':20, 'delay': '10ms'}, qspec1=[q1, q2], qspec2=[q1, q2 ])
 
 
-## Citing Work
+## Citation
 	
 We kindly ask that should you mention any of our datasets, or use our code, in your publication, that you would reference the following paper:
 	
