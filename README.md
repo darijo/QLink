@@ -85,4 +85,22 @@ We kindly ask that should you mention any of our datasets, or use our code, in y
 	
 Bibtex:
 	
-\cite{10.1145/3524273.3532893}
+```
+@inproceedings{10.1145/3524273.3532893,
+author = {Raca, Darijo and Salian, Meghana and Zahran, Ahmed H.},
+title = {Enabling Scalable Emulation of Differentiated Services in Mininet},
+year = {2022},
+isbn = {9781450392839},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3524273.3532893},
+doi = {10.1145/3524273.3532893},
+abstract = {Evolving Internet applications, such as immersive multimedia and Industry 4, exhibit stringent delay, loss, and rate requirements. Realizing these requirements would be difficult without advanced dynamic traffic management solutions that leverage state-of-the-art technologies, such as Software-Defined Networking (SDN). Mininet represents a common choice for evaluating SDN solutions in a single machine. However, Mininet lacks the ability to emulate links that have multiple queues to enable differentiated service for different traffic streams. Additionally, performing a scalable emulation in Mininet would not be possible without light-weight application emulators. In this paper, we introduce two tools, namely: QLink and SPEED. QLink extends Mininet API to enable emulating links with multiple queues to differentiate between different traffic streams. SPEED represents a light-weight web traffic emulation tool that enables scalable HTTP traffic simulation in Mininet. Our performance evaluation shows that SPEED enables scalable emulation of HTTP traffic in Mininet. Additionally, we demo the benefits of using QLink to isolate three different applications (voice, web, and video) in a network bottleneck for numerous users.},
+booktitle = {Proceedings of the 13th ACM Multimedia Systems Conference},
+pages = {240–245},
+numpages = {6},
+keywords = {VoIP, web behavioral modelling, emulation, web traffic, adaptive video streaming, mininet, differentiated services},
+location = {Athlone, Ireland},
+series = {MMSys '22}
+}	
+```
